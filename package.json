@@ -49,5 +49,10 @@
     "netlify",
     "open-source",
     "coolify"
-  ]
+  },
+  "engines": {
+    "node": "18.x",
+    "npm": "9.6.7"
+  },
+  "postinstall": "npm install -g pnpm"
 }
